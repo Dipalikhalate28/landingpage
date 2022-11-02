@@ -1,4 +1,4 @@
-.converge{
+.converge {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -7,32 +7,35 @@
     /* text-decoration: i; */
     margin: auto;
 }
-.converge .image{
+
+.image {
     min-width: 400px;
-    width: 50%;
+    width: 40%;
     position: relative;
+    padding: 5%;
 }
 
-.convergefirst{
-color: #5d2eab;
-font-weight: 700;
+.convergefirst {
+    
+    color: #5d2eab;
+    font-weight: 700;
 }
-.convergenm{
+
+.convergenm {
     font-style: italic;
     font-size: 40pt;
     font-family: 'Roboto', sans-serif;
 }
 
-.byhumancloud{
-font-style: italic;
+.byhumancloud {
+    font-style: italic;
 }
 
-.human{
+.human {
     color: #648FFF
 }
 
-.cloud{
+.cloud {
     color: #648FFF;
     font-weight: 400pt;
 }
-

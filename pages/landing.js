@@ -32,23 +32,26 @@ const landing = () => {
   return (
     <>
 
-      {width < "670" ? <AppDrawer /> : <Navbar scroll={scroll} />}
+      {width <= "670" ? <AppDrawer /> : <Navbar scroll={scroll} />}
+
       <Grid container direction={"column"}
         alignItems="center" spacing={2}>
+
+
         <Grid item lg={12} xs={12}>
-          <Converge />
+          <Converge width={width}/>
         </Grid>
-        <Grid item lg={12} xs={12}>
+        {/* <Grid item lg={12} xs={12}>
           <Services />
-        </Grid>
-        <Grid item lg={12} xs={12}>
+        </Grid> */}
+        {/* <Grid item lg={12} xs={12}>
           <CreateAccount /></Grid>
         <Grid item lg={12} xs={12}>
           <Browse />
-        </Grid>
-        <Grid item lg={12} xs={12}>
+        </Grid> */}
+        {/* <Grid item lg={12} xs={12}>
           <Footer />
-        </Grid>
+        </Grid> */}
       </Grid>
     </>
   )
