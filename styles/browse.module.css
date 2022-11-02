@@ -1,0 +1,24 @@
+.browseheading{
+    width: 100%;
+    color: #5D2EAB;
+    text-align:center;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+}
+ 
+
+.browsblocks{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 100px;
+
+}
+.block div{
+    width: 100px;
+    height: 100px;
+    background: #CEB1FF;
+    margin: 10px;
+}

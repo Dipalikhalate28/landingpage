@@ -1,0 +1,38 @@
+.converge{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* text-decoration: i; */
+    margin: auto;
+}
+.converge .image{
+    min-width: 400px;
+    width: 50%;
+    position: relative;
+}
+
+.convergefirst{
+color: #5d2eab;
+font-weight: 700;
+}
+.convergenm{
+    font-style: italic;
+    font-size: 40pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+.byhumancloud{
+font-style: italic;
+}
+
+.human{
+    color: #648FFF
+}
+
+.cloud{
+    color: #648FFF;
+    font-weight: 400pt;
+}
+
